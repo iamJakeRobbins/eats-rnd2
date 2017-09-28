@@ -1,1 +1,80 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Order Online</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+	  <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	</head>
+
+	<body>
+		<header class="card-panel teal lighten-2" role="navigation">
+			<h1>Galvanize Eats</h1>
+		</header>
+		<section class="wSide">
+
+		<!-- Everything to the left of the wireframe goes here -->
+		<section class="lSide">
+			<!-- Menu items go here -->
+			<section class="menuBoard">
+				<div class="pure-menu pure-menu-scrollable custom-restricted pure-u-1-3">
+					<h2 class="burg">Burgers</h2>
+					<h2 class="pizza">Pizza</h2>
+    		</div>
+			</section>
+
+			<!-- order quantity and order button go here -->
+			<section class="quantity">
+				<form class="pure-form pure-form-stacked">
+    			<fieldset>
+        		<label>Quantity</label>
+        		<input id="name" type="name" value="1"min="1" max="10" placeholder="#">
+        		<button type="submit" class="pure-u-1-2 pure-button pure-button-primary">Add Item</button>
+    			</fieldset>
+				</form>
+			</section>
+			<!-- Customer Data Goes Here  -->
+			<div class="userData">
+				<form class="pure-form pure-form-stacked">
+    			<fieldset>
+        		<label>Name</label>
+        		<input id="name" type="name" placeholder="John Doe">
+        		<label for="phone">Phone Number</label>
+        		<input id="phone" type="phone" placeholder="555-123-1234">
+						<label>Address</label>
+						<input id="address" type="address" placeholder="123 Sesame St.">
+						<label></label>
+        		<button type="submit" class="pure-u-1-1 pure-button pure-button-primary" id="del">Deliver It!</button>
+    			</fieldset>
+				</form>
+			</div>
+		</section>
+		<!-- Pending order goes here -->
+		<section class="rSide">
+			<div class="pure-u-1-3">
+				<p>Your Order</p>
+
+			</div>
+
+		</section>
+
+	</section>
+
+		<footer class="page-footer teal">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<p>&copy Galvanize 2015 + Denver CO</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--  Scripts-->
+	  <script src="js/materialize.js"></script>
+	  <script src="js/init.js"></script>
+
+	</body>
+</html>

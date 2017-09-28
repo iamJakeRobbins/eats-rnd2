@@ -1,4 +1,4 @@
-Running Tally: 0hrs
+Running Tally: 1.75hrs
 * What are we doing here?
 
 I've already built eats once, the project is over and its time to move on to other things.  But I didn't finish things entirely.  I ran out of time and there were things that I didn't have sufficient mastery over to execute efficiently.  
@@ -32,3 +32,8 @@ GO!
 -I'm going to use Materialize to drive the CSS.
 -I'm going to cull and sort my user stories to reflect my first point of focus and complete those tasks in their entirerty before moving on to more functional code.
 Lets see how this goes!
+Time to complete 1 hr
+Using a framework to predefine where content would go saved a lot of headaches and rolled everything together nicely.  I found that user stories couldn't be fully separated from the layout process so I completed content tasks as they made sense.  I also found that it made the most sense to lay out one page before moving on to the next, filling in content as I went.
+I think this would work differently if there were difficult design tasks on the first page I began working on so
+
+Rule 1: design first, add content as it makes sense to do so.  Focus on the easy tasks first
