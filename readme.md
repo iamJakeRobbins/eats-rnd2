@@ -15,20 +15,20 @@ I think that's about it so lets dive in.
 
 * Prologue-- what came before
 
-I submitted my eats project about an hour and a half ago.
-I spent roughly 17 hours on the project, minus time spent on breaks, eating and travelling to do those things.
-I'm starting from scratch now, i've created all the files I will need and have started a new repository.
-I have access to all the wireframes and user stories from the original project.
-The timer starts as soon as I finish updating the README.
-Time spent planning will count towards total work time.  
-At the end of every session I'll update the README with a running total of time spent.
-This first planning session is a gimme-- it doesn't count towards my time.
+-I submitted my eats project about an hour and a half ago.
+-I spent roughly 17 hours on the project, minus time spent on breaks, eating and travelling to do those things.
+-I'm starting from scratch now, i've created all the files I will need and have started a new repository.
+-I have access to all the wireframes and user stories from the original project.
+-The timer starts as soon as I finish updating the README.
+-Time spent planning will count towards total work time.  
+-At the end of every session I'll update the README with a running total of time spent.
+-This first planning session is a gimme-- it doesn't count towards my time.
 
 Ready?
 GO!
 
 * Chapter 1
-I'm going to focus on realizing my wireframes first, rather than creating the data and then trying to put it where I want it.  I'm going to create an HTML skeleton with my framework of choice and try to get as much styling done as possible before I dive into functionality.  
-I'm going to use Materialize to drive the CSS.
-I'm going to cull and sort my user stories to reflect my first point of focus and complete those tasks in their entirerty before moving on to more functional code.
+-I'm going to focus on realizing my wireframes first, rather than creating the data and then trying to put it where I want it.  I'm going to create an HTML skeleton with my framework of choice and try to get as much styling done as possible before I dive into functionality.  
+-I'm going to use Materialize to drive the CSS.
+-I'm going to cull and sort my user stories to reflect my first point of focus and complete those tasks in their entirerty before moving on to more functional code.
 Lets see how this goes!
