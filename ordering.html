@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 	  <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	</head>
-
 	<body>
 		<header class="card-panel teal lighten-2" role="navigation">
 			<h1>Galvanize Eats</h1>
@@ -29,10 +28,11 @@
 			<section class="quantity">
 				<form class="pure-form pure-form-stacked quantity">
         		<label>Quantity</label>
-        		<input type="number" value="1"max = "99" min="1" required>
+        		<input type="name" value="1"max = "99" min="1" required>
         		<button type="submit" class="pure-u-1-2 pure-button pure-button-primary add">Add Item</button>
 				</form>
 			</section>
+
 			<!-- Customer Data Goes Here  -->
 			<div class="userData">
 				<form class="pure-form pure-form-stacked deliver">
@@ -54,19 +54,19 @@
 			<div class="right">
 			</div>
 				<div class="money">
-					<h5>Sub-Total:</h2>
-					<h5>Tax:</h3>
-					<h5>Total:</h2>
-
-
+					<div class="subTotal">
+						<h5>Sub-Total:</h5>
+					</div>
+					<div class="tax">
+						<h5>Tax:</h5>
+					</div>
+					<div class="total">
+						<h5>Total:</h5>
+					</div>
 			</div>
-
-
-
 		</section>
-
 	</section>
-
+		<!-- footer goes here -->
 		<footer class="page-footer teal">
 			<div class="container">
 				<div class="row">
@@ -77,12 +77,10 @@
 			</div>
 		</footer>
 
-		<!--  Scripts-->
+		<!--  Scripts -->
 		<script type="text/javascript" src="script.js">
-
 		</script>
 	  <script src="js/materialize.js"></script>
 	  <script src="js/init.js"></script>
-
 	</body>
 </html>

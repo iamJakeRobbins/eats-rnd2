@@ -5,6 +5,7 @@ var burgers = document.getElementsByClassName('burg')[0]
 var pending = document.getElementsByClassName('right')[0]
 var pure = document.getElementsByClassName('pure-form pure-form-stacked quantity')[0]
 var delivery = document.getElementsByClassName('pure-form pure-form-stacked deliver')[0]
+var subTotal = document.getElementsByClassName('subTotal')[0]
 
 // Menu fetch goes here
 fetch('https://galvanize-eats-api.herokuapp.com/menu')
@@ -79,12 +80,22 @@ pure.addEventListener('submit', (event) => {
 })
 
 // order pricing scripting goes here
+pure.addEventListener('submit', (event) => {
+		event.preventDefault();
+		running = document.createElement('h5')
+		
+
 
 
 // post to API call goes here
 delivery.addEventListener('submit', (event) =>{
 	event.preventDefault();
-	var data = 'test'
+	var data = {
+		name:
+		phone:
+		address:
+		order:
+	}'test'
 	fetch('https://galvanize-eats-api.herokuapp.com/orders', {
 		method: 'post',
 		body: data
