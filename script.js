@@ -4,6 +4,7 @@ var pizza = document.getElementsByClassName('pizza') [0]
 var burgers = document.getElementsByClassName('burg')[0]
 var pending = document.getElementsByClassName('right')[0]
 var pure = document.getElementsByClassName('pure-form pure-form-stacked quantity')[0]
+var delivery = document.getElementsByClassName('pure-form pure-form-stacked deliver')[0]
 
 // Menu fetch goes here
 fetch('https://galvanize-eats-api.herokuapp.com/menu')
@@ -81,3 +82,15 @@ pure.addEventListener('submit', (event) => {
 
 
 // post to API call goes here
+delivery.addEventListener('submit', (event) =>{
+	event.preventDefault();
+	var data = 'test'
+	fetch('https://galvanize-eats-api.herokuapp.com/orders', {
+		method: 'post',
+		body: data
+	})
+	.then((res) => {
+		return res.json()
+		console.log(res.json());
+	})
+})
