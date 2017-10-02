@@ -5,7 +5,8 @@ var burgers = document.getElementsByClassName('burg')[0]
 var pending = document.getElementsByClassName('right')[0]
 var pure = document.getElementsByClassName('pure-form pure-form-stacked quantity')[0]
 var delivery = document.getElementsByClassName('pure-form pure-form-stacked deliver')[0]
-var subTotal = document.getElementsByClassName('subTotal')[0]
+var subTotal = document.getElementsByClassName('money')[0].children
+var subtotal = 0
 
 // Menu fetch goes here
 fetch('https://galvanize-eats-api.herokuapp.com/menu')
@@ -62,12 +63,14 @@ menuDisp.addEventListener('click', (event) => {
     currentItemName.append(name)
     currentItemPrice.append(price)
 })
+var price = 0
 pure.addEventListener('submit', (event) => {
 		event.preventDefault();
     var amount = event.target["0"].value
-    var price = currentItemPrice.innerText
+     price = parseFloat(currentItemPrice.innerText,10)
     var name = currentItemName.innerText
         for (var i = 0; i < amount; i++) {
+					subbtotal(price)
             var wrap = document.createElement('div')
             var pTag = document.createElement('h4')
             var pTag2 = document.createElement('p')
@@ -80,22 +83,22 @@ pure.addEventListener('submit', (event) => {
 })
 
 // order pricing scripting goes here
-pure.addEventListener('submit', (event) => {
-		event.preventDefault();
-		running = document.createElement('h5')
-		
+function subbtotal(num){
+	subtotal += (num)
+	var tax = (subtotal * 0.083)
+	subTotal[0].innerText = 'SubTotal:       ' + subtotal.toFixed(2)
+	subTotal[1].innerText = 'Tax:       ' + tax.toFixed(2)
+	subTotal[2].innerText = ('Order Total:       ' + ((subtotal) + tax).toFixed(2))
+	console.log(tax);
+}
+
 
 
 
 // post to API call goes here
 delivery.addEventListener('submit', (event) =>{
 	event.preventDefault();
-	var data = {
-		name:
-		phone:
-		address:
-		order:
-	}'test'
+	var data = 'test'
 	fetch('https://galvanize-eats-api.herokuapp.com/orders', {
 		method: 'post',
 		body: data
