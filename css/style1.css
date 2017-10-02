@@ -9,11 +9,42 @@
 * {
 	font-family: 'Open Sans', 'sans serif'
 }
+.mItem {
+	border: 1px solid teal;
+}
 
-.pure-u-1-3 {
+.mItemF{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid red;
+	background-color: yellow;
+}
+h2 {
+	text-align: center;
+	font-size: normal;
+	color: teal;
+}
+.red {
+	background-color: red;
+}
+h4, p {
+	font-size: small;
+
+}
+.right {
+	height: 445px;
+	width: 400px;
+
+
+}
+.rSide {
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	/*justify-content: space-between;*/
 	border: 2px solid #26a69a;
-	height: 500px;
-	width: 600px;
+	height: 550px;
+	width: 400px;
 	background: linear-gradient(orange, white);
 }
 
@@ -35,6 +66,13 @@
 footer {
 	text-align: center;
 }
+.quantity{
+	display: flex;
+}
+
+.money {
+
+}
 
 header {
 	opacity: 0.5;
@@ -44,6 +82,12 @@ header {
 p {
   line-height: 2rem;
 }
+.mItem, .wrap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 
 .icon-block {
   padding: 0 15px;
