@@ -10,7 +10,7 @@
 	font-family: 'Open Sans', 'sans serif'
 }
 .main {
-	background-image:url('/Users/davidrobbins/galvanize/Learning-Projects/eats2/media/restaurant-hero-image.jpg');
+	background-image:url('/media/restaurant-hero-image.jpg');
 }
 nav ul a,
 nav .brand-logo {

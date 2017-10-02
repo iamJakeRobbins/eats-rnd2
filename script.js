@@ -92,9 +92,6 @@ function subbtotal(num){
 	console.log(tax);
 }
 
-
-
-
 // post to API call goes here
 delivery.addEventListener('submit', (event) =>{
 	event.preventDefault();
@@ -107,4 +104,5 @@ delivery.addEventListener('submit', (event) =>{
 		return res.json()
 		console.log(res.json());
 	})
+	alert('Congrats! Your meal is on its way!')
 })
